@@ -1,2 +1,4 @@
 # APPLICATION-SECURITY
-A collection of professional Application Security vulnerability write-ups, including XSS, IDOR, SQLi, Authentication &amp; Authorization issues, and API security flaws. All examples are from legal, intentionally vulnerable environments for educational and portfolio purposes.
+
+A collection of professional Application Security vulnerability write-ups, including XSS, IDOR, SQLi, Authentication & Authorization issues, and API security flaws.
+All findings are based on authorized testing, and recreated on safe, educational environments.
