@@ -14,7 +14,7 @@
    EXAMPLE
  -Normal URL - https://shopping.com/search?q=keyboard (The result that will be shown will be the keyboards because you searched 
   for keyboards)
- -Malicious URL -https://shopping.com/search?q=<script>alert(1)</script>(The browser will execute this and a popup will appear and
-  show 1.)
+ -Malicious URL -https://shopping.com/search?q=<script>alert(1)</script> (The browser will execute this and a popup will appear and
+  show "1".)
 
   
