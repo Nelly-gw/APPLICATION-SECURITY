@@ -1,1 +1,20 @@
+# Cross-Site Scripting
 
+## What is Cross-site scripting (XSS)?
+ This is a web application vulnerability that allows a user/an attacker to inject malicous javascript code into the website's original code,
+ which is then executed on the victim's browser.
+
+## TYPES OF XSS
+ ### Reflected XSS
+  -This is a type of XSS vulnerability where the malicious code is injected into a request and immediately reflected back to the user's
+  browserand then executed.
+  - It is not stored in the database.
+  - It happens in search result, error message or any other response that includes the input that was sent to the server.
+
+   EXAMPLE
+ -Normal URL - https://shopping.com/search?q=keyboard (The result that will be shown will be the keyboards because you searched 
+  for keyboards)
+ -Malicious URL -https://shopping.com/search?q=<script>alert(1)</script>(The browser will execute this and a popup will appear and
+  show 1.)
+
+  
